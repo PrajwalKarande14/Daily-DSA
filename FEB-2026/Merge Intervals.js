@@ -18,10 +18,10 @@
 // Explanation: Intervals [1,4] and [4,7] are considered overlapping.
 
 
-const arr = [[1,3],[2,6],[8,10],[15,18]]
+const arr = [[1,3],[2,6],[8,10],[9,18]]
 
-const merge = () => {
-     intervals.sort((a,b)=>a[0]-b[0])
+const merge = (intervals) => {
+    intervals.sort((a,b)=>a[0]-b[0])
     const n = intervals.length
     let i = 0,j = 1
     const res = []
@@ -38,3 +38,6 @@ const merge = () => {
     }
     return res
 }
+
+console.log(merge(arr))
+// [ [ 1, 6 ], [ 8, 18 ] ]

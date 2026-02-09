@@ -12,8 +12,11 @@
 // The result of the merge is [1,2,2,3,5,6] with the underlined elements coming from nums1.
 
 
-
-var merge = function (nums1, m, nums2, n) {
+var nums1 = [1,2,3,0,0,0]
+var nums2 = [2,5,6]
+m = 3
+n = 3
+var merge = function () {
     let s = m+n-1
     let i = m-1
     let j = n-1
@@ -30,3 +33,7 @@ var merge = function (nums1, m, nums2, n) {
     }
 
 };
+
+merge()
+console.log(nums1)
+//[ 1, 2, 2, 3, 5, 6 ]
