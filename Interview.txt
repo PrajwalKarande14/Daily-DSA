@@ -1,0 +1,41 @@
+1. classification of Design Pattern.
+2. what are different Design patterns
+3. difference bewtween pub-sub and Observer
+4. what is prototype
+5. what are design principles
+6. what is L in SOLID
+7. what is Difference bewtween KISS and YAGNI
+8. What is DRY
+9. what are basic Git commands
+10. what is git commit amend
+11. what are branching strategies
+12. what are semantic elements
+13. What are web workers
+14. what is Difference bewtween Local storage and session storage
+15. what is Difference bewtween GRID and Flex
+16. Pseudo Classes and Pseudo selector
+17. how you can center div using both
+18. What are different properties under grid and Flex
+19. what is SCSS
+20. what is difference between Position absolute and relative
+21. what is difference between Position flxed and sticky
+22. what is SCSS
+23. How to make design responsive
+24. what is interface
+25. what is type
+26. Difference between Type and interface
+27. Implement interface
+28. Destructuring, spreading , rest operator implementatiion
+29. Scopes in JavaScript
+30. Guess output for code related to Scopes
+31. Guess output for code related to this keyword for function inside object
+32. Call, bind 
+33. Event proppagation and Event Delegation
+34. Capturing and Bubbling
+35. Guess output for 
+36. Enums
+37. HOC
+38. Pure function
+39. Immutability
+40. Basic Types in TS
+41. Hoisting
