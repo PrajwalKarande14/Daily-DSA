@@ -28,14 +28,54 @@
 28. Destructuring, spreading , rest operator implementatiion
 29. Scopes in JavaScript
 30. Guess output for code related to Scopes
+let a = 10
+{
+    let a = 20
+    console.log(a)
+}
+console.log(a)
+
 31. Guess output for code related to this keyword for function inside object
-32. Call, bind 
-33. Event proppagation and Event Delegation
-34. Capturing and Bubbling
-35. Guess output for 
-36. Enums
-37. HOC
-38. Pure function
-39. Immutability
-40. Basic Types in TS
-41. Hoisting
+const obj = {
+    fname:"ram"
+    lname:"charan"
+    fn(){
+        console.log(this.fname," ",this.lname)
+    }
+}
+obj.fn()
+
+const obj = {
+    fname:"ram"
+    lname:"charan"
+    fn=()=>{
+        console.log(this.fname," ",this.lname)
+    }
+}
+obj.fn()
+
+32. Call, bind : change code so that output will be "ram charan"
+const obj = {
+    fname:"ram"
+    lname:"charan"
+    fn()=>{
+        console.log(this.fname," ",this.lname)
+    }
+}
+
+const person = obj.fn
+
+33. Event proppagation and Event Delegation: Guess output
+body
+    container 1 capture = true
+        container 2
+            container 3 capture = true
+                button
+            
+ 
+35. Enums
+36. HOC
+37. Pure function
+38. Immutability
+39. Basic Types in TS
+40. Hoisting
